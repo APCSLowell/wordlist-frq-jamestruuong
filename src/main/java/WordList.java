@@ -10,7 +10,7 @@ public class WordList
 
   public int numWordsOfLength(int len)
   {
-    /* to be implemented in part (a) */
+    for(int i = 0; i<wordList
     
   }
 
