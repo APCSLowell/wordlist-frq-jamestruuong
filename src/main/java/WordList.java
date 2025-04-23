@@ -19,14 +19,13 @@ public class WordList
     return count;
   }
 
-  public void removeWordsOfLength(int len)
-  {
-    for(int i = myList.size(); i>=0; i--){
+  public void removeWordsOfLength(int len){
+    int i = 0;
+    while(i<myList.size()){
       if(myList.get(i).length() == len){
         myList.remove(i);
+      }else{
+        i++;
       }
-    }
-    /* to be implemented in part (b) */
   }
-  return myList;
 }
